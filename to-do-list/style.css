@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: #87cefa;
+}
+
+.task-input {
+  background-color: azure;
+  width: 800px;
+  min-height: 70px;
+  border: none;
+  border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  margin: 50px auto;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.task-container {
+  background-color: azure;
+  width: 800px;
+  min-height: 50px;
+  border: none;
+  border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header {
+  background-color: azure;
+  padding: 20px 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.add-btn {
+  width: 20%;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+}
+.done-btn {
+  width: 60px;
+  height: 23px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+}
+
+.delete-btn {
+  width: 60px;
+  height: 23px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.task-state-done {
+  text-decoration: line-through;
+}
+
+input {
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+}
+
+h1 {
+  color: #054a74;
+}
+
+/* .hidden {
+  display: none;
+} */
