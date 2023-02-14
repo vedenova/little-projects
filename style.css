@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(207, 191, 191, 0.4), rgba(39, 37, 37, 0.8)),
+    url(images/sincerely-media-R308gX3g4h8-unsplash.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.header {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 50px;
+  color: #000;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 15px;
+  color: #6d6d6d;
+}
+
+ul {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+  color: #584f3b;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #a7893d;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
